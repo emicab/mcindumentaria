@@ -1,15 +1,20 @@
 import { useParams } from 'react-router-dom'
 import React from 'react'
-import { obtenerIdProducto } from '../controllers/getData';
+
 import { useMiContexto } from '../context/useContext';
 
 const CardDetails = () => {
     const { id } = useParams();
-    const { escuela, productoEscuela, setProductoEscuela } = useMiContexto()
-
-    const producto = obtenerIdProducto(id)
+    const { productoEscuela } = useMiContexto()
+    
+    const {descripcion, imagen, talles, id: idProdcuto} = productoEscuela.uniforme.find(producto => producto.id === id)
+    
+    
   return (
-    <div>{producto.nombre}</div>
+    <div>
+        <h2>{descripcion}</h2>
+        <img src={imagen} alt={descripcion} />
+    </div>
   )
 }
 
