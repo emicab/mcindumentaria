@@ -1,0 +1,77 @@
+[
+    {
+        "nombre": "Martin Miguel de Güemes",
+        "nivel": "Primario",
+        "uniforme": [
+            {
+                "id": "1",
+                "descripcion": "Remera de clase de Pique primera calidad",
+                "imagen": "https://equiporocket.com/wp/wp-content/uploads/2016/02/blanco-cuello-redondo.jpg",
+                "talles": {
+                        "6": "10000",
+                        "8": "12000",
+                        "10": "14000",
+                        "12": "16000",
+                        "14": "17000"
+                    }
+            },
+            {
+                "id": "2",
+                "descripcion": "Campera de clase de frisa deportiva",
+                "imagen": "https://redsport.vtexassets.com/arquivos/ids/1081595-1200-1200?v=637562508542070000&width=1200&height=1200&aspect=true",
+                "talles": {
+                        "6": "10000",
+                        "8": "12000",
+                        "10": "14000",
+                        "12": "16000",
+                        "14": "17000"
+                    }
+            },
+            {
+                "id": "3",
+                "descripcion": "Remera de Educación Fisica de Algodon",
+                "imagen": "https://equiporocket.com/wp/wp-content/uploads/2016/02/blanco-cuello-redondo.jpg",
+                "talles": {
+                        "6": "10000",
+                        "8": "12000",
+                        "10": "14000",
+                        "12": "16000",
+                        "14": "17000"
+                    }
+            }
+        ],
+        "escudo": ""
+    },
+    {
+        "nombre": "Victorino Martinez",
+        "nivel": "Primario",
+        "uniforme": [
+            {
+                "id": "4",
+                "descripcion": "Remera de clase de Pique primera calidad",
+                "imagen": "https://equiporocket.com/wp/wp-content/uploads/2016/02/blanco-cuello-redondo.jpg",
+                "talles": {
+                        "6": "10000",
+                        "8": "12000",
+                        "10": "14000",
+                        "12": "16000",
+                        "14": "17000"
+                    }
+            },
+            {
+                "id": "5",
+                "descripcion": "Campera de clase de frisa deportiva",
+                "imagen": "https://redsport.vtexassets.com/arquivos/ids/1081595-1200-1200?v=637562508542070000&width=1200&height=1200&aspect=true",
+                "talles": {
+                        "6": "10000",
+                        "8": "12000",
+                        "10": "14000",
+                        "12": "16000",
+                        "14": "17000"
+                    }
+            }
+        ],
+        "escudo": ""
+    }
+    
+]
